@@ -6,7 +6,7 @@ close all;
 dir_seg = dir('..\Videos\*.avi');
 len = length(dir_seg);
 
-for k = 3:len
+for k = 1:len
     
     clear area_pupil_right;
     clear area_pupil_left;
